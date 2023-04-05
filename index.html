@@ -19,8 +19,14 @@
   </head>
 
   <body>
-    <header>
-      <ul class="nav justify-content-end">
+    
+    <div class="container row">
+      <div class="col">
+        <h1 class="main-title"> Welcome!</h1>
+        <h2 class="subtitle">Glad to see you here</h2>
+        <p class="bio"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper, leo vitae accumsan tempor, enim ipsum finibus felis, eu bibendum leo massa id eros. Aliquam mi lectus, interdum at consequat ac, porttitor vel nibh. Cras auctor lacus id sapien convallis, quis mattis dui molestie. Quisque in odio aliquet, molestie nisi sit amet, porttitor lectus. Donec hendrerit, lorem at sagittis posuere, urna orci vulputate sem, ultrices pharetra purus massa at sem. Pellentesque quis enim sed enim porta maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam eu velit finibus, hendrerit odio et, blandit dui. Integer.</p>
+      </div>
+      <ul class="nav flex-column col">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Active</a>
         </li>
@@ -34,55 +40,56 @@
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
       </ul>
-    </header>
-    <div class="container row">
-        <div class="col">
-            <h1 class="main-title"> Welcome!</h1>
-            <h2 class="subtitle">Glad to see you here</h2>
-            <p class="bio"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper, leo vitae accumsan tempor, enim ipsum finibus felis, eu bibendum leo massa id eros. Aliquam mi lectus, interdum at consequat ac, porttitor vel nibh. Cras auctor lacus id sapien convallis, quis mattis dui molestie. Quisque in odio aliquet, molestie nisi sit amet, porttitor lectus. Donec hendrerit, lorem at sagittis posuere, urna orci vulputate sem, ultrices pharetra purus massa at sem. Pellentesque quis enim sed enim porta maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam eu velit finibus, hendrerit odio et, blandit dui. Integer.</p>
-        </div>
-        
-        <ul class="nav flex-column col">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
     </div>
 
-
+    <div class="container-lg bg-dark text-white">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Language</h2>
+          <p>Javascript <br>
+            Ruby<br>
+            HTML<br>
+            CSS</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Frameworks</h2>
+          <p>React.js <br>
+            Ruby on Rails<br>
+            RSpec<br>
+            Capybara</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Skills</h2>
+          <p>Database Management<br>
+            Version Control<br>
+            CLI<br>
+            API Design<br>
+            Web Development</p>
+        </div>
+      </div>
+    </div>
     <div class="container row">
-      <!-- <div class="row"> -->
-        <div class="col">
-          I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-        </div>
-        <div class="col-md-6 offset-md-0">
-          <form>
-            <div class="form-floating mb-3">
-              <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
-              <label for="floatingInput">Name</label>
-            </div>
-            <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-              <label for="floatingInput">Email address</label>
-            </div>
-            <div class="form-floating">
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-              <label for="floatingTextarea2">Comments</label>
-            </div>
-          </form>
-        </div>
-      <!-- </div> -->
+      <div class="col">
+        I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+      </div>
+      <div class="col-md-6 offset-md-0">
+        <form>
+          <div class="form-floating mb-3">
+            <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comments</label>
+          </div>
+        </form>
+      </div>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
-</html>
+    </body>
+  </html>
